@@ -1,0 +1,62 @@
+{
+  "WETH": {
+    "token_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "impersonate_holder_address": "0x57757e3d981446d585af0d9ae4d7df6d64647806",
+    "fund_transfer_amount": 10
+  },
+  "USDT": {
+    "token_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "impersonate_holder_address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+    "fund_transfer_amount": 1000
+  },
+  "USDC": {
+    "token_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "impersonate_holder_address": "0xcffad3200574698b78f32232aa9d63eabd290703",
+    "fund_transfer_amount": 1000
+  },
+  "DAI": {
+    "token_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "impersonate_holder_address": "0x5d38b4e4783e34e2301a2a36c39a03c45798c4dd",
+    "fund_transfer_amount": 1000
+  },
+  "WBTC": {
+    "token_address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "impersonate_holder_address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+    "fund_transfer_amount": 2
+  },
+  "AWETH": {
+    "token_address": "0x030bA81f1c18d280636F32af80b9AAd02Cf0854e",
+    "impersonate_holder_address": "0x4093FBe60aB50AB79a5Bd32Fa2adEC255372f80E",
+    "fund_transfer_amount": 100
+  },
+  "AUSDT": {
+    "token_address": "0x3ED3B47DD13EC9A98B44E6204A523E766B225811",
+    "impersonate_holder_address": "0x6d1b730aa76b613ac1e52f73f0cb70c42b50331c",
+    "fund_transfer_amount": 1000
+  },
+  "AUSDC": {
+    "token_address": "0xBCCA60BB61934080951369A648FB03DF4F96263C",
+    "impersonate_holder_address": "0x13873fa4b7771f3492825b00d1c37301ff41c348",
+    "fund_transfer_amount": 1000
+  },
+  "ADAI": {
+    "token_address": "0x028171BCA77440897B824CA71D1C56CAC55B68A3",
+    "impersonate_holder_address": "0x2e4cf76b269f34d83bea428f4c35aa5645191259",
+    "fund_transfer_amount": 1000
+  },
+  "AWBTC": {
+    "token_address": "0x9FF58F4FFB29FA2266AB25E75E2A8B3503311656",
+    "impersonate_holder_address": "0x99e2ae3dd7fdb5684950176551911d19d55dfcab",
+    "fund_transfer_amount": 2
+  },
+  "CRV_TRICRYPTO2": {
+    "token_address": "0xc4AD29ba4B3c580e6D59105FFf484999997675Ff",
+    "impersonate_holder_address": "0xdefd8fdd20e0f34115c7018ccfb655796f6b2168",
+    "fund_transfer_amount": 100
+  },
+  "CRV_3POOL": {
+    "token_address": "0x6C3F90F043A72FA612CBAC8115EE7E52BDE6E490",
+    "impersonate_holder_address": "0x701aecf92edcc1daa86c5e7eddbad5c311ad720c",
+    "fund_transfer_amount": 1000
+  }
+}

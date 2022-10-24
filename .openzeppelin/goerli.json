@@ -1,0 +1,159 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xF9780A423d4cC425fBde9a7555983991749a3815",
+    "txHash": "0x460374b517c4df491df91a94b7b49a6d79cdc4d6ac759f27a3655e594c9a76de"
+  },
+  "proxies": [
+    {
+      "address": "0x520Dbc1A13e27540Cd6d4d7bD0FC217B55D65Ac0",
+      "txHash": "0xa82864e4011c3447f1b8161b6601a03c4ee0a12472f786c0d864c7f6953cf21a",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "d7b07f180da7749df615d6ab5ad5be1da0d065d607e1b6a1411440fc4917515a": {
+      "address": "0xa58f7887D04f720044ea40506ffdFf373531ccdd",
+      "txHash": "0x1b351fd55d583032c14410cc7c2c6dc4f5a2f088212ca9ad7200c05e9c8b0cf6",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "liquidationProtocolAddresses",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_mapping(t_uint64,t_address)",
+            "contract": "InfinityPool",
+            "src": "contracts/InfinityPool.sol:20"
+          },
+          {
+            "label": "productVariables",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_mapping(t_uint64,t_int64)",
+            "contract": "InfinityPool",
+            "src": "contracts/InfinityPool.sol:21"
+          },
+          {
+            "label": "priceIndexes",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_mapping(t_uint256,t_uint64)",
+            "contract": "InfinityPool",
+            "src": "contracts/InfinityPool.sol:22"
+          },
+          {
+            "label": "poolToken",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_contract(IInfinityToken)7394",
+            "contract": "InfinityPool",
+            "src": "contracts/InfinityPool.sol:23"
+          },
+          {
+            "label": "weth",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_contract(IWETH)7445",
+            "contract": "InfinityPool",
+            "src": "contracts/InfinityPool.sol:24"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IInfinityToken)7394": {
+            "label": "contract IInfinityToken",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWETH)7445": {
+            "label": "contract IWETH",
+            "numberOfBytes": "20"
+          },
+          "t_int64": {
+            "label": "int64",
+            "numberOfBytes": "8"
+          },
+          "t_mapping(t_uint256,t_uint64)": {
+            "label": "mapping(uint256 => uint64)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint64,t_address)": {
+            "label": "mapping(uint64 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint64,t_int64)": {
+            "label": "mapping(uint64 => int64)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}

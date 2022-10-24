@@ -1,0 +1,18 @@
+artifacts/
+cache/
+crytic-export/
+dist/
+node_modules/
+typechain/
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+
+.DS_Store
